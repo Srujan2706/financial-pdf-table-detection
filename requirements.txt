@@ -1,0 +1,9 @@
+PyMuPDF
+pdfplumber
+camelot-py
+opencv-python
+pandas
+pytesseract
+Pillow
+tabulate
+pytest
