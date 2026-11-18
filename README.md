@@ -31,6 +31,25 @@ Multi-page tables spanning across page boundaries are reported on each page they
 
 ---
 
+## Tools and Libraries Used
+
+The project uses Python and supporting libraries for PDF processing, table detection, OCR, data extraction, and automated testing.
+
+| Tool / Library | Purpose | Why It Was Used |
+|---|---|---|
+| Python 3.10+ | Core programming language | Provides flexibility for PDF processing, layout analysis, and data extraction. |
+| pdfplumber | PDF text and layout extraction | Extracts text, lines, and geometric coordinates required for identifying physical table structures. |
+| Tesseract OCR | Optical Character Recognition | Recognizes text in scanned and image-based PDF documents. |
+| pytesseract | Python interface for Tesseract | Integrates Tesseract OCR functionality into the Python application. |
+| pytest | Automated testing framework | Tests individual modules and verifies application functionality. |
+| CSV | Structured output format | Stores extracted table titles and page numbers in a spreadsheet-compatible format. |
+| JSON | Structured output format | Stores extracted metadata in a machine-readable format suitable for further processing. |
+
+### Development Tools
+
+- **Visual Studio Code:** Used for Python development, debugging, and project management.
+- **Git and GitHub:** Used for source-code version control and project hosting.
+
 ## System Architecture
 
 ```mermaid
